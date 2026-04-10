@@ -175,7 +175,15 @@ cargo tauri dev
 
 ## 图标维护
 
-如果替换了 `src-tauri/icons/128x128@2x.png`，可以重新生成 `.ico` 和 `.icns`：
+如果要重新绘制当前 logo，可先运行：
+
+```bash
+./scripts/redraw_logo.py
+```
+
+该脚本会生成新的 `src-tauri/icons/128x128@2x.png` 源图。
+
+然后再重新生成 `.ico` 和 `.icns`：
 
 ```bash
 ./scripts/generate-icons.py
