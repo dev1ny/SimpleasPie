@@ -1,6 +1,6 @@
 {
   "productName": "商超利润计算器",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "identifier": "com.supermarket.calculator",
   "build": {
     "frontendDist": "../frontend",
