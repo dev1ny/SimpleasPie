@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "identifier": "com.supermarket.calculator",
   "build": {
-    "frontendDist": "../",
-    "devUrl": "http://localhost:1420",
-    "beforeDevCommand": "",
+    "frontendDist": "../frontend",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeDevCommand": "node ./scripts/dev-frontend.mjs",
     "beforeBuildCommand": ""
   },
   "app": {
